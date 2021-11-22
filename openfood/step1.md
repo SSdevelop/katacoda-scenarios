@@ -6,8 +6,8 @@ This will clone the repository into your root folder.
 
 ## Run the docker containers
 
-Once the repository is cloned, run the containers by following command.
-
+Once the repository is cloned, change the directory to OpenFoodAPI, and run the containers by following command.
+`cd OpenFoodAPI`{{execute}}
 `docker-compose up --build`{{execute}}
 
 It might take some time to run the containers. So, open a new tab in the terminal and run:
