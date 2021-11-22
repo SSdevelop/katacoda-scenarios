@@ -28,6 +28,10 @@
             {
                 "title": "Step 6: Checking the token",
                 "text": "step6.md"
+            },
+            {
+                "title": "Step 7: Testing",
+                "text": "step7.md"
             }
         ],
         "intro": {
