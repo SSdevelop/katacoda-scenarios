@@ -1,0 +1,25 @@
+{
+    "title": "OpenFood API Demo",
+    "description": "A katakoda sceneroio to walk you through the OpenFood API, a project under COMP3122",
+    "diffiulty": "beginner",
+    "time": "20 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1: Initialise the project",
+                "text": "step1.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "credits": ""
+        }
+    },
+    "environment": {
+        "hidefinish": true,
+        "uilayout": "vscode-terminal-split"
+    },
+    "backend": {
+        "image": "ubuntu"
+    }
+}
