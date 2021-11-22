@@ -20,6 +20,6 @@
         "uilayout": "vscode-terminal-split"
     },
     "backend": {
-        "image": "ubuntu"
+        "imageid": "ubuntu"
     }
 }
