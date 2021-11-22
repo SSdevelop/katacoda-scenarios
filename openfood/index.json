@@ -8,10 +8,26 @@
             {
                 "title": "Step 1: Initialise the project",
                 "text": "step1.md"
+            },
+            {
+                "title": "Step 2: Test the working",
+                "text": "step2.md"
+            },
+            {
+                "title": "Step 3: Playing with Grafana",
+                "text": "step3.md"
+            },
+            {
+                "title": "Step 2: Playing with Kibana",
+                "text": "step4.md"
             }
         ],
         "intro": {
             "text": "intro.md",
+            "credits": ""
+        },
+        "finish": {
+            "text": "finish.md",
             "credits": ""
         }
     },
