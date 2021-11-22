@@ -10,7 +10,7 @@ Once the repository is cloned, change the directory to OpenFoodAPI, and run the 
 `cd OpenFoodAPI`{{execute}}
 `docker-compose up --build`{{execute}}
 
-It might take some time to run the containers. So, open a new tab in the terminal and run:
+It might take some time to run the containers. So, open a new tab in the terminal `echo "helloo"`{{execute T2}} and run:
 
 `docker ps`{{execute}}
 
