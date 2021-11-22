@@ -24,6 +24,10 @@
             {
                 "title": "Step 5: Authorization",
                 "text": "step5.md"
+            },
+            {
+                "title": "Step 6: Checking the token",
+                "text": "step5.md"
             }
         ],
         "intro": {
