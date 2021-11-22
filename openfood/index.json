@@ -18,8 +18,12 @@
                 "text": "step3.md"
             },
             {
-                "title": "Step 2: Playing with Kibana",
+                "title": "Step 4: Playing with Kibana",
                 "text": "step4.md"
+            },
+            {
+                "title": "Step 5: Authorization",
+                "text": "step5.md"
             }
         ],
         "intro": {
@@ -27,8 +31,7 @@
             "credits": ""
         },
         "finish": {
-            "text": "finish.md",
-            "credits": ""
+            "text": "finish.md"
         }
     },
     "environment": {
