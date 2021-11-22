@@ -2,13 +2,17 @@
 
 The authentication service has a path */auth/users* which lists the details of every user in the database.
 Now, we do not want anyone to get it, we only want the admin to access this information.
-So, type (make sure you type it if you have not stored the token anywhere) the following command and paste it in the terminal and make sure to add the token you got in previous step into it.
-`
-    curl -X POST -H "x-access-token: <YOUR_TOKEN>" \
-    http://localhost:10000/auth/users
-`
+*Due to the character limitation on Katakoda terminal, we cannot use the terminal to test the token's validity*
 
-This should give a 403 status code.
+So, to test the token, use POSTMAN with following link (if you are using katakoda):
+https://[[HOST_SUBDOMAIN]]-10000-[[KATACODA_HOST]].environments.katacoda.com/auth/users
+
+Under header tab of request in Postman, define, **x-access-token:** *<YOUR_TOKEN>*
+
+It should give the following result:
+![Postman auth](./assets/postman1.jpg)
+
+As expected, you cannot view the information of other users if you are not admin.
 
 Now let us repeat the previous step for admin:
 `
@@ -18,7 +22,8 @@ Now let us repeat the previous step for admin:
 `{{execute}}
 
 Now if we repeat this step with the token of admin, it should work.
-`
-    curl -X POST -H "x-access-token: <YOUR_TOKEN>" \
-    http://localhost:10000/auth/users
-`
+![Postman Auth Admin](./assets/postman2.jpg)
+
+As expected it is working.
+
+Similarly we can test it for ***/stores/set_status/<store_id>***
